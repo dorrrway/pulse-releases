@@ -1,0 +1,179 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Pulse</title>
+        <item>
+            <title>2.5.0</title>
+            <pubDate>Wed, 17 Jun 2026 15:58:06 +0800</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 2.5.0
+
+- Added a Bluetooth panel notice when system Bluetooth is off, with a handoff to Bluetooth Settings.
+- Added a dismissible notification suggestion queue between the island header and main panel for storage, power, thermal, memory pressure, and Bluetooth battery suggestions.
+- Added Uninstall and Clean Up to the Applications module with a regular confirmation window, local residual-file scan, permission guidance, and Trash-only cleanup.
+- Full-screen screenshots and recordings now choose a target display first, improving multi-display behavior while keeping window recording on the native macOS picker.
+- Screenshot editing now opens centered on the current screen and collapses the island preview before editing.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v2.5.0/Pulse-2.5.0.dmg" length="4868940" type="application/octet-stream" sparkle:edSignature="O67NJ0CoXjH/W7wckrExge3UQnkoxNOEzXVLaTaUoyeIvk+agsfxt/H/rGw1f/PQXez+vpIL5HouN+mii8KpCg=="/>
+        </item>
+        <item>
+            <title>2.4.0</title>
+            <pubDate>Wed, 03 Jun 2026 14:13:25 +0800</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 2.4.0
+
+- Renamed Screenshots to Capture and added native screen recording with full-screen, window, and custom-region modes, recording shortcuts, Hide Pulse, Hide Mouse, and local `.mov` previews.
+- Added a local Memo module with notes, todo conversion, filters, search, editing, pinning, copy, delete, and completed-todo cleanup.
+- Added a top-right close button for screenshot and video previews; video close removes unsaved temporary recordings and screenshot previews restore the expanded island when appropriate.
+- Refined Capture panel icons and mode labels.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v2.4.0/Pulse-2.4.0.dmg" length="4536369" type="application/octet-stream" sparkle:edSignature="TIZiMUInft8YMfZMeoYh+BQ4lCET81/9+D5pI4vgTWBrXyifIjKsiPaf+ifxjKWrPEUro33zselr8Qmjqt/DAQ=="/>
+        </item>
+        <item>
+            <title>2.3.0</title>
+            <pubDate>Mon, 01 Jun 2026 00:10:45 +0800</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 2.3.0
+
+- Added Screenshots with native macOS full-screen, window, and selection capture, shortcuts, hide-before-capture control, preview actions, drag export, and local text recognition.
+- Added a richer screenshot editor with pen, text, brush-based mosaic redaction, undo, save, share, pin, cancel, and done actions.
+- Added Bluetooth device browsing, paired-device connect/disconnect actions, battery and charging-state display, and local low-battery alerts.
+- Refined pinned screenshot resizing, screenshot preview layout, Clipboard context-copy actions, and app-launch hover handling.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v2.3.0/Pulse-2.3.0.dmg" length="4147261" type="application/octet-stream" sparkle:edSignature="q00hnYnXdjS6iU3K3yM2knBMRuPzPymF/qeoNMX+zGE3i2Dt7HOD/9KPWyfjIqZDhdnPxxv5Ijn3jnTFM0NmBw=="/>
+        </item>
+        <item>
+            <title>2.2.0</title>
+            <pubDate>Wed, 27 May 2026 16:23:40 +0800</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 2.2.0
+
+- Expanded support to macOS 15.0 and later.
+- Kept the macOS 26 and newer clipboard permission status and favorite-removal drag feedback paths unchanged.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v2.2.0/Pulse-2.2.0.dmg" length="3625313" type="application/octet-stream" sparkle:edSignature="paJ8UiQdCExdCZpBWIyqP1iOIh2gN6WydmN4RDNSapKJjq/7arMxQpqZ2x3lGd4eainh+oQYdLuF5UwwyOiJBA=="/>
+        </item>
+        <item>
+            <title>2.1.0</title>
+            <pubDate>Wed, 27 May 2026 15:26:20 +0800</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 2.1.0
+
+- Added the Clipboard module with local history, filtering, search, copy, reveal, delete, clear, direct paste, configurable retention, sensitive masking, and local-only OCR.
+- Added global shortcuts for waking Clipboard and Applications directly, stored only in local preferences.
+- Added Favorite Apps, icon/list app browsing, running-state indicators, smoother app launching, and better drag placement in the Applications module.
+- Refined the Dynamic Island-style surface with smoother open transitions, header actions, multi-display tracking, natural horizontal switching, and Applications as the default expanded module.
+- Fixed UTF-16 clipboard text decoding when apps provide text without a byte-order mark.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v2.1.0/Pulse-2.1.0.dmg" length="3611523" type="application/octet-stream" sparkle:edSignature="m9NUWVqCtq20IE42vGxyC7u3JB/BMWwjzwxApC3m6g4cyzMYraZn40t9s9LY11TGNsCDLmN4OoUG7/oeuPSgDg=="/>
+        </item>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Mon, 25 May 2026 16:52:12 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 2.0.0
+
+- Pulse now works like a Dynamic Island-style surface at the top of the screen instead of a menu bar icon.
+- In its resting state, Pulse lightly rotates between memory and CPU, and adds battery status when power is low.
+- Hover to open the expanded state with Resource Monitor, Settings, updates, pinning, and Quit close at hand.
+- Alert state briefly highlights low battery, high heat, low storage, or high memory pressure before returning to the resting state.
+- Added an Applications view for opening local apps from standard application locations.
+- Improved placement on MacBooks with a camera housing.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v2.0.0/Pulse-2.0.0.dmg" length="3040553" type="application/octet-stream" sparkle:edSignature="j7JxT8l5+LytXtJBg11KSKLLTjeJLKPYM6qVXCYQBsVmrqExS2cmwxay9zFyHfmBjCqXTisPEqdRcrGmoj3QCg=="/>
+        </item>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Fri, 15 May 2026 08:57:27 +0800</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 1.2.0
+
+- Fixed System language matching for macOS preferred-language setups.
+- Fixed Appearance > System so open windows refresh immediately after switching back from Light or Dark mode.
+- Improved the DMG installer window with bilingual drag guidance and fixed Pulse-to-Applications layout.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v1.2.0/Pulse-1.2.0.dmg" length="2782794" type="application/octet-stream" sparkle:edSignature="kk9C27T4BtUej4OZKc407zWh1r/obVwkwwPf4xG/EgAkDxQ11pz8/+l0vNIlZ7JvIXCdVq64/ZzyjDlw1dkAAQ=="/>
+        </item>
+        <item>
+            <title>1.1.4</title>
+            <pubDate>Thu, 14 May 2026 23:28:38 +0800</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 1.1.4
+
+- Kept the in-panel Update button visibly blue in floating panels.
+- Added the current app version to the settings footer.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v1.1.4/Pulse-1.1.4.dmg" length="3192919" type="application/octet-stream" sparkle:edSignature="o77xEXXhx9f7EWNu/Yp+Gbavv1azQj8OJ9NEXv6zHlpIKoKl+hyz0SF87IHy7EZsHN0xTe7+9+/wJ1OpCOAoBw=="/>
+        </item>
+        <item>
+            <title>1.1.3</title>
+            <pubDate>Thu, 14 May 2026 23:12:42 +0800</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 1.1.3
+
+- Made the in-panel update button easier to see and aligned it after the minimal-mode control in pinned panels.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v1.1.3/Pulse-1.1.3.dmg" length="3194938" type="application/octet-stream" sparkle:edSignature="TmYPuaryUoGz8VnjxNnMW59MxYcjMbBvD2Pdkho/ow/F9EImhYIDytWtHiRiMX0ep5CrHGjtdp8VxkAbEWuhBA=="/>
+        </item>
+        <item>
+            <title>1.1.2</title>
+            <pubDate>Thu, 14 May 2026 14:13:40 +0800</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 1.1.2
+
+- Moved update checks to the TimeLikeSilver-hosted appcast endpoint.
+- Refined full-panel status dots and CPU ranking warning colors.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v1.1.2/Pulse-1.1.2.dmg" length="3178256" type="application/octet-stream" sparkle:edSignature="F1irB/MHw6iAiv3Mq5hWLXzPyXTX3oR0VmSbZCJtR/u7DU9/JjwQE/7xIim7eMoyLjwI8RpmpQp65VOD8lYeBQ=="/>
+        </item>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Thu, 14 May 2026 12:21:52 +0800</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 1.1.1
+
+- Adjusted the high-activity threshold for disk I/O.
+- Reduced Pulse's own refresh overhead without slowing real-time CPU, memory, network, or disk I/O updates.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v1.1.1/Pulse-1.1.1.dmg" length="3177194" type="application/octet-stream" sparkle:edSignature="NneYd1Kt5PtCQX/zCF2AIvUEQmYyPdXzHSZAeoh9thcKRh03Ij2N5RxaDSHpZHgVYA61YXMT+WOkhVMbfsrRDw=="/>
+        </item>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Thu, 14 May 2026 03:23:33 +0800</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Pulse 1.1.0
+
+- Added a pinnable floating panel and compact minimal mode.
+- Added CPU and memory process rankings with app icons, pixel share charts, and detail popovers.
+- Refined full-panel status cards with System Runtime and stronger status feedback.
+- Added Sparkle update checks and in-panel update installation.
+- Added Appearance and Contact settings, and improved menu bar and floating panel layout.
+]]></description>
+            <enclosure url="https://github.com/dorrrway/pulse-releases/releases/download/v1.1.0/Pulse-1.1.0.dmg" length="3151942" type="application/octet-stream" sparkle:edSignature="bfu2echckxGEuVu6l8Mvs8BuNnBM7n8KtUmmReI5KjyeVjF+fhVlv2BTc5xz/Eu/xd1stuuyqrDxe04tu1xqBw=="/>
+        </item>
+    </channel>
+</rss>
